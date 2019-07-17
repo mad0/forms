@@ -25,12 +25,12 @@ namespace First
 
         private void button2_MouseMove(object sender, MouseEventArgs e)
         {
-            button2.BackgroundImage = Image.FromFile("box2.png");
+           // button2.BackgroundImage = Image.FromFile("box2.png");
         }
 
         private void button2_MouseLeave(object sender, EventArgs e)
         {
-            button2.BackgroundImage = Image.FromFile("box1.png");
+           // button2.BackgroundImage = Image.FromFile("box1.png");
         }
 
         private void button2_MouseDown(object sender, MouseEventArgs e)
